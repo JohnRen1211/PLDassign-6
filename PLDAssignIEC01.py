@@ -5,9 +5,11 @@
 # Using list,min,max,raise code commands for the program.
 
 print("Welcome to the system can you input 4 numbers? Type 1 for yes and 2 for no command.")
+
 answer= int(input("Response: "))
 command1 = 1
 command2 = 2
+
 if answer == command2:
     print("Okay, then rest.")
     raise SystemExit
