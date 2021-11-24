@@ -48,4 +48,68 @@ ran_num1 = random.randint(0,99)
 ran_num2 = random.randint(0,99)
 
 # Sample program using random command
+print("Set#1 of random numbers:")
+num1 = ran_num1 + ran_num2 
+print("The answer in operation#1 is:",num1)
+print("Random number1 is: ",ran_num1)
+print("Random number2 is: ",ran_num2)
+print("Evaluating if the answer is correct: Type 1 for yes and 2 for no command.")
+print("Operation: 1/10")
+answer= int(input("Response: "))
+command1 = 1
+command2 = 2
+if answer == command2:
+    print("Okay, then rest.")
+    raise SystemExit
+elif answer <= -1:
+    print("Input the right command.")
+    raise SystemExit
+elif answer == command1:
+    print("Continue to the survey")
+elif answer >= command2:
+    print("Input the right command.")
+    raise SystemExit
 
+print("Set#2 of random numbers")
+num2 = ran_num3 + ran_num4 
+print("The answer in operation#2 is:",num2)
+print("Random number1 is: ",ran_num3)
+print("Random number2 is: ",ran_num4)
+print("Evaluating if the answer is correct: Type 1 for yes and 2 for no command.")
+print("Operation number: 2/10")
+answer= int(input("Response: "))
+command1 = 1
+command2 = 2
+if answer == command2:
+    print("Okay, then rest.")
+    raise SystemExit
+elif answer <= -1:
+    print("Input the right command.")
+    raise SystemExit
+elif answer == command1:
+    print("Continue to the survey")
+elif answer >= command2:
+    print("Input the right command.")
+    raise SystemExit
+
+print("Set#3 of random numbers")
+num3 = ran_num5 + ran_num6 
+print("The answer in operation#3 is:",num3)
+print("Random number1 is: ",ran_num5)
+print("Random number2 is: ",ran_num6)
+print("Evaluating if the answer is correct: Type 1 for yes and 2 for no command.")
+print("Operation: 3/10")
+answer= int(input("Response: "))
+command1 = 1
+command2 = 2
+if answer == command2:
+    print("Okay, then rest.")
+    raise SystemExit
+elif answer <= -1:
+    print("Input the right command.")
+    raise SystemExit
+elif answer == command1:
+    print("Continue to the survey")
+elif answer >= command2:
+    print("Input the right command.")
+    raise SystemExit
