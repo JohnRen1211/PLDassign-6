@@ -35,3 +35,22 @@ elif number3 <= number1 and number2 and number4:
     print(f" The number#3 value {number3} is lowest number.")
 elif number4 <= number1 and number2 and number3:
     print(f" The number#4 value {number4} is lowest number.")
+
+# Program completely running
+
+if (number1 >= number2) and (number1 >= number3) and (number1 >= number4): 
+    print(f"The number#1 value {number1} is the highest number.")
+elif (number2 >= number1) and (number2 >=number3) and (number2 >= number4):
+    print(f"The number#2 value {number2} is the highest number.")
+elif (number3 >= number1) and (number3 >=number2) (number3 >= number4):
+    print(f"The number#3 value {number3} is the highest number.")
+elif (number4 >= number1) and (number4 >=number2) (number4 >= number3):
+    print(f"The number#4 value {number4} is the highest number.")
+
+print("The lowest value is: ")
+print(min([number1, number2, number3,number4]))
+
+print("The highest value is: ")
+print(max([number1, number2, number3,number4]))
+
+print("Program successfully processed")
