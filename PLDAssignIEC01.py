@@ -2,7 +2,7 @@
 # The steps to do.
 #1 Ask for 3 numbers value.
 #2 Show the lowest value showing the highest is optional.
-# Using list,min,max,raise commands for the program.
+# Using list,min,max,raise code commands for the program.
 
 print("Welcome to the system can you input 4 numbers? Type 1 for yes and 2 for no command.")
 answer= int(input("Response: "))
@@ -19,9 +19,7 @@ elif answer == command1:
 elif answer >= command2:
     print("Input the right command.")
     raise SystemExit
-  
-# The intro code
-# Working program sample
+
 number1 = float(input("num#1: "))
 number2 = float(input("num#2: "))
 number3 = float(input("num#3: "))
@@ -36,7 +34,6 @@ elif number3 <= number1 and number2 and number4:
 elif number4 <= number1 and number2 and number3:
     print(f" The number#4 value {number4} is lowest number.")
 
-# Program completely running
 
 if (number1 >= number2) and (number1 >= number3) and (number1 >= number4): 
     print(f"The number#1 value {number1} is the highest number.")
