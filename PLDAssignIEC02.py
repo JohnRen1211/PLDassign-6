@@ -47,7 +47,6 @@ ran_num20 = random.randint(0,99)
 ran_num1 = random.randint(0,99)
 ran_num2 = random.randint(0,99)
 
-# Sample program using random command
 print("Set#1 of random numbers:")
 num1 = ran_num1 + ran_num2 
 print("The answer in operation#1 is:",num1)
@@ -113,8 +112,7 @@ elif answer == command1:
 elif answer >= command2:
     print("Input the right command.")
     raise SystemExit
-
-# Program running   
+ 
 print("Set#1 of random numbers:")
 num1 = ran_num1 + ran_num2 
 print("The answer in operation#1 is:",num1)
