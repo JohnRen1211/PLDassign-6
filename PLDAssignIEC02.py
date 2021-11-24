@@ -19,6 +19,33 @@ elif answer == command1:
 elif answer >= command2:
     print("Input the right command.")
     raise SystemExit
-    
+
 # Import random command
+
+import random
+
+ran_num1 = random.randint(0,99)
+ran_num2 = random.randint(0,99)
+ran_num3 = random.randint(0,99)
+ran_num4 = random.randint(0,99)
+ran_num5 = random.randint(0,99)
+ran_num6 = random.randint(0,99)
+ran_num7 = random.randint(0,99)
+ran_num8 = random.randint(0,99)
+ran_num9 = random.randint(0,99)
+ran_num10 = random.randint(0,99)
+ran_num11 = random.randint(0,99)
+ran_num12 = random.randint(0,99)
+ran_num13 = random.randint(0,99)
+ran_num14 = random.randint(0,99)
+ran_num15 = random.randint(0,99)
+ran_num16 = random.randint(0,99)
+ran_num17 = random.randint(0,99)
+ran_num18 = random.randint(0,99)
+ran_num19 = random.randint(0,99)
+ran_num20 = random.randint(0,99)
+ran_num1 = random.randint(0,99)
+ran_num2 = random.randint(0,99)
+
+# Sample program using random command
 
