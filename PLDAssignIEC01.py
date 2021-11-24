@@ -21,3 +21,17 @@ elif answer >= command2:
     raise SystemExit
   
 # The intro code
+# Working program sample
+number1 = float(input("num#1: "))
+number2 = float(input("num#2: "))
+number3 = float(input("num#3: "))
+number4 = float(input("num#4: "))
+
+if number1 <= number2 and number3 and number4:
+    print(f"The number#1 value {number1} is the lowest number.")
+elif number2 <= number1 and number3 and number4:
+    print(f"The number#2 value {number2} is the lowest number.")
+elif number3 <= number1 and number2 and number4:
+    print(f" The number#3 value {number3} is lowest number.")
+elif number4 <= number1 and number2 and number3:
+    print(f" The number#4 value {number4} is lowest number.")
